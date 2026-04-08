@@ -49,7 +49,7 @@ HOW TO RUN
 
 1. Clone the repository
 
-   git clone https://github.com/your-username/todo-list.git
+   git clone https://github.com/darshan1-sirpi/Todo-application-JS
 
 2. Go to the folder
 
