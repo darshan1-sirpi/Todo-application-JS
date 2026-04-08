@@ -14,9 +14,10 @@ A simple To-Do List application built with HTML, CSS, and JavaScript. It lets us
 
 ## Screenshots
 
-![Screenshot 1](./image.png)
+![Screenshot 1](./screenshot.png)
 
-![Screenshot 2](./screenshot.png)
+![Screenshot 2](./image.png)
+
 
 ## Technologies Used
 
