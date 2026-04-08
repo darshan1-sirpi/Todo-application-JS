@@ -1,0 +1,79 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+body {
+    background-color: whitesmoke;
+    margin: 50px 20%;
+}
+
+#app-container {
+    background-color: rgb(233, 215, 215);
+    padding: 20px;
+    border: 2px solid black;
+}
+
+#progress-title,
+#completed-section h2 {
+    margin-top: 20px;
+}
+
+input {
+    padding: 10px;
+    margin: 0px 10px 0px 0px;
+    border: 1px solid black;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: orange;
+    border : 1px solid black;
+}
+
+ul {
+    padding: 0px;
+    margin: 20px 0px 0px 0px;
+}
+
+li {
+    background-color: yellow;
+    padding: 10px;
+    margin: 10px 0px;
+    border: 1px solid black;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.task-text {
+    flex: 1;
+}
+
+.task-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.task-btn {
+    padding: 6px 10px;
+}
+
+.complete-btn {
+    background-color: #8fd694;
+}
+
+.delete-btn {
+    background-color: #ff9a9a;
+}
+
+.completed {
+    text-decoration: line-through;
+    background-color: lightgray;
+}
