@@ -73,6 +73,23 @@ li {
     background-color: #ff9a9a;
 }
 
+#download-btn {
+    background-color: #a7d8ff;
+}
+
+.completed-header {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    gap: 10px;
+}
+
+#download-completed-btn {
+    background-color: #b6f1cc;
+    padding: 8px 12px;
+}
+
 .completed {
     text-decoration: line-through;
     background-color: lightgray;

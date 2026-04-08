@@ -1,86 +1,67 @@
 # To-Do List Web App
 
-A simple To-Do List application built using HTML, CSS, and JavaScript.
-It allows users to add tasks, mark them as completed, and delete them.
+A simple To-Do List application built with HTML, CSS, and JavaScript. It lets users add tasks, complete them, delete them, save them in the browser, and download task lists.
 
---------------------------------------------------
-
-FEATURES
+## Features
 
 - Add new tasks
 - Mark tasks as completed
 - Delete tasks
-- Separate sections:
-  * Progress (Active tasks)
-  * Completed List
-- Simple and clean UI
+- Save data in local storage so tasks remain after refresh
+- Download all tasks as a text file
+- Download only completed tasks as a separate text file
+- Separate task sections for Progress and Completed List
 
---------------------------------------------------
+## Screenshots
 
-SCREENSHOT
+![Screenshot 1](./image.png)
 
-(Add your screenshot file in the project folder as "screenshot.png")
+![Screenshot 2](./screenshot.png)
 
-![Screenshot](./screenshot.png)
-
---------------------------------------------------
-
-TECHNOLOGIES USED
+## Technologies Used
 
 - HTML
 - CSS
-- JavaScript (DOM Manipulation)
+- JavaScript
+- localStorage
+- Blob file download
 
---------------------------------------------------
+## Project Structure
 
-PROJECT STRUCTURE
-
-To-Do-List/
-|
+```text
+Todo-application-JS/
 |-- index.html
 |-- style.css
 |-- script.js
+|-- image.png
 |-- screenshot.png
 |-- README.md
+```
 
---------------------------------------------------
+## How to Run
 
-HOW TO RUN
+1. Clone the repository.
 
-1. Clone the repository
-
+   ```bash
    git clone https://github.com/darshan1-sirpi/Todo-application-JS.git
+   ```
 
-2. Go to the folder
+2. Open the project folder.
 
-   cd todo-list
+3. Open index.html in your browser.
 
-3. Open index.html in browser
+## How It Works
 
---------------------------------------------------
+- Enter a task and click Add.
+- The task appears in the Progress section.
+- Click Complete to move it to the Completed List.
+- Click Delete to remove a task.
+- Tasks stay saved after refresh because the app uses localStorage.
+- Click Download All to download both pending and completed tasks.
+- Click Download Completed to download only completed tasks.
 
-HOW IT WORKS
-
-- Enter a task and click "Add"
-- Task appears in Progress section
-- Click "Complete" to move it to Completed List
-- Click "Delete" to remove the task
-
---------------------------------------------------
-
-FUTURE IMPROVEMENTS
-
-- Add Local Storage (save tasks permanently)
-- Edit task feature
-- Dark mode
-- Mobile responsive design
-
---------------------------------------------------
-
-AUTHOR
+## Author
 
 Darshan Satish Patgar
-
---------------------------------------------------
 
 

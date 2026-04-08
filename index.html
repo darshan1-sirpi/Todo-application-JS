@@ -8,10 +8,20 @@
 
     <div id="app-container">
         <h1>To-Do List</h1>
-        <input type="text" id="task-input">
+        <input type="text" id="task-input" placeholder="Enter a task">
         <button id="add-btn">Add</button>
+        <button id="download-btn">Download All</button>
+
+        <h2 id="progress-title">Progress</h2>
         
         <ul id="task-list"></ul>
+
+        <div class="completed-header">
+            <h2>Completed List</h2>
+            <button id="download-completed-btn">Download Completed</button>
+        </div>
+
+        <ul id="completed-list"></ul>
     </div>
 
     <script src="script.js"></script>
